@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Accueil</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body role="document">
+        <div id="page">
+        <h1 id="header"><a href="#" title="Colored Design - Accueil"><span>Colored Design</span></a></h1>
+                <nav id="nav" role="navigation">
+                    <ul>
+                        <li><a href="index.php?page=accueil">Accueil</a></li>
+                        <li><a href="index.php?page=taches">Tâches</a></li>
+                        <li><a href="index.php?page=services">Services</a></li>
+                        <li><a href="index.php?page=contact">Contact</a></li>
+                        <li><a href="index.php?page=contact">Contact</a></li>
+                        <li><a href="index.php?page=acces">Accès</a></li>
+                    </ul>
+                </nav>
+
+            <div id="content">
+                <aside id="sidebar-left">
+                                  <div class="slideshow-container">
+                    <div class="mySlides fade">
+                         <div class="numbertext">1 / 3</div>
+                         <img src="6.png" style="width:100%">
+                         <div class="text">Caption Text</div>
+                    </div>
+                    <div class="mySlides fade">
+                         <div class="numbertext">2 / 3</div>
+                         <img src="7.png" style="width:100%">
+                         <div class="text">Caption Two</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="6.png" style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                 </div><br>
+                 <div style="text-align:center">
+                     <span class="dot" onclick="currentSlide(1)"></span> 
+                     <span class="dot" onclick="currentSlide(2)"></span> 
+                     <span class="dot" onclick="currentSlide(3)"></span> 
+                  </div>
+                </aside>
+                <aside id="sidebar-right">
+                    <h5>Horraires de priére</br>مواقيت الصلاة</h5>
+                    <iframe src="https://mawaqit.net/fr/w/bilal-saint-etienne" frameborder="5" scrolling="no" style="width: 90%; height: 150px;"></iframe>
+                    <h5>Ecouter le coran</br>استماع القران الكريم</h5>
+                    <iframe src="http://quran-live.com/player.htm" frameborder="no" scrolling="no" width="90%" height="300px"></iframe>                
+                </aside>
+                <div id="main" role="main">
+                  <span id="sl_play" class="sl_command">&nbsp;</span>
+                  <span id="sl_pause" class="sl_command">&nbsp;</span>
+                  <span id="sl_i1" class="sl_command sl_i">&nbsp;</span>
+                  <span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
+                  <span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
+                  <span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
+                  <section id="slideshow">
+                      <a class="commands prev commands1" href="" title="Go to last slide">&lt;</a>
+                      <a class="commands next commands1" href="" title="Go to 2nd slide">&gt;</a>
+                      <a class="commands prev commands2" href="" title="Go to 1rst slide">&lt;</a>
+                      <a class="commands next commands2" href="" title="Go to 3rd slide">&gt;</a>
+                      <a class="commands prev commands3" href="" title="Go to 2nd slide">&lt;</a>
+                      <a class="commands next commands3" href="" title="Go to 4th slide">&gt;</a>
+                      <a class="commands prev commands4" href="" title="Go to 3rd slide">&lt;</a>
+                      <a class="commands next commands4" href="" title="Go to first slide">&gt;</a>
+                      <div class="container">
+                          <div class="c_slider"></div>
+                          <div class="slider">
+                              <figure>
+                                  <img src="6.png" alt="" width="640" height="310" />
+                                  <figcaption>1</figcaption>
+                              </figure><!--
+                           --><figure>
+                                  <img src="7.png" alt="" width="640" height="310" />
+                                  <figcaption>2</figcapion>
+                              </figure><!--
+                           --><figure>
+                                  <img src="3.jpg" alt="" width="640" height="310" />
+                                  <figcaption>3</figcaption>
+                              </figure><!--
+                           --><figure>
+                                  <img src="e.jpg" alt="" width="640" height="310" />
+                                  <figcaption>4</figcaption>
+                              </figure>
+                          </div>
+                      </div>
+                      <span id="timeline"></span>
+                          <ul class="dots_commands"><!--
+                          --><li><a title="Show slide 1" href="#sl_i1">Slide 1</a></li><!--
+                          --><li><a title="Show slide 2" href="#sl_i2">Slide 2</a></li><!--
+                          --><li><a title="Show slide 3" href="#sl_i3">Slide 3</a></li><!--
+                          --><li><a title="Show slide 4" href="#sl_i4">Slide 4</a></li>
+                          </ul>
+                  </section>
+                                    <div class="column-layout">
+                      <div><img src="4.jpg" alt="" width="250" height="103" />
+                          <hr>CRÉATION DE SITE INTERNET VITRINE:Pour présenter simplement votre activité et vos produits. Une solution simple pour être présent sur le web et développer votre notoriété...
+                          <div id="Galerie_description">
+                              <a href="Services.html" class="bouton_rouge"><img src="tn_plus.gif" alt="" /></a>
+                          </div>
+                      </div>
+                      <div>
+                          <img src="site-internet.jpg" alt="" width="250" height="103" />
+                          <hr>Connaitre les langages html et Css ,réaliser un site web....
+                          <div id="Galerie_description">
+                              <a href="taches.html" class="bouton_rouge"><img src="tn_plus.gif" alt="" /></a>
+                          </div>
+                      </div>
+                      <div>
+                          <img src="r.jpg" alt="" width="250" height="103" />
+                          <hr>Le rapport de stage est le résumé de mon expérience acquise lors de mon stage en entreprise, pour m'aider à faire le point sur mon future carrière.
+                          <div id="Galerie_description">
+                              <a href="rapport.html" class="bouton_rouge"><img src="tn_plus.gif" alt="" /></a>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <footer id="footer" role="contentinfo">
+                      <nav class="nav-footer">
+                      <ul id="menu"><!--
+                        --><li><a href="index.html">Accueil</a></li><!--
+                        --><li><a href="taches.html">Taches</a></li><!--
+                        --><li><a href="Services.html">Services</a></li><!--
+                        --><li><a href="contact11.php">Contact</a></li>
+                      </ul>       
+                  </nav>
+            </footer>
+        </div>
+    </body>
+</html>
